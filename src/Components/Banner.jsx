@@ -16,8 +16,8 @@ const Banner = () => {
         };
     }, []);
     return (
-        <div className="hero max-w-screen-sm mx-auto">
-            <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="hero max-w-screen-sm mx-auto my-5">
+            <div className="hero-content">
                 <img
                     src="https://media.licdn.com/dms/image/D4D03AQHhAa08TqOKfg/profile-displayphoto-shrink_200_200/0/1719225918279?e=1725494400&v=beta&t=5o0wq4R5G1oSjFoJ2y6u8uFsPqkrE1pf7CD2FGe2W04"
                     className="max-w-sm rounded-full shadow-2xl" />
