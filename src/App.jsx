@@ -8,9 +8,9 @@ function App() {
   return (
     <div className='max-w-screen-lg mx-auto'>
       <Navbar />
-      <div className='max-w-screen-sm mx-auto'>
-      <Banner />
-      <About />
+      <div className='max-w-screen-md mx-auto space-y-10'>
+        <Banner />
+        <About />
       </div>
       <Footer />
     </div>
