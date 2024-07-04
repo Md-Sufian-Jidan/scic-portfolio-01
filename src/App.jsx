@@ -4,6 +4,9 @@ import Footer from './Shared/Footer'
 import Banner from './Components/Banner'
 import About from './Components/About'
 import Skills from './Components/Skills'
+import Service from './Components/Service'
+import Contact from './Components/Contact'
+import Projects from './Components/Projects'
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
         <Banner />
         <About />
         <Skills />
+        <Service />
+        <Projects />
+        <Contact />
       </div>
       <Footer />
     </div>

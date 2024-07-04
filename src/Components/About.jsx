@@ -1,5 +1,3 @@
-import { FaGithub } from "react-icons/fa";
-import { FaFacebook, FaLinkedin } from "react-icons/fa6";
 
 const About = () => {
     return (
@@ -19,17 +17,6 @@ const About = () => {
                     <p><i className="font-extrabold capitalize">Back-End Development</i> : Experienced in using Node.js and Express.js to develop robust server-side applications.</p>
                     <p><i className="font-extrabold capitalize">Database Management</i> : Skilled in working with MongoDB to design and manage efficient databases.</p>
                     <p><i className="font-extrabold capitalize">Firebase</i> : Knowledgeable in using Firebase for building scalable and secure applications.</p>
-                </div>
-                <div className="p-5 flex gap-2">
-                    <a href="https://www.facebook.com/profile.php?id=100063493051408" target="_blank" >
-                        <FaFacebook className="text-blue-600 hover:scale-110" size={30} />
-                    </a>
-                    <a href="https://github.com/Md-Sufian-Jidan" target="_blank" >
-                        <FaGithub className="text-black hover:scale-110" size={30} />
-                    </a>
-                    <a href="https://www.linkedin.com/in/md-abu-sufian-jidan" target="_blank" >
-                        <FaLinkedin className="text-blue-600 hover:scale-110" size={30} />
-                    </a>
                 </div>
             </div>
         </div>

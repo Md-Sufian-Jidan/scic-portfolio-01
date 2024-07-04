@@ -6,6 +6,7 @@ const Navbar = () => {
         <li><a>Skills</a></li>
         <li><a>Projects</a></li>
         <li><a>Services</a></li>
+        <li><a>Contact</a></li>
     </>
     return (
         <div className="navbar bg-cyan-900/30 rounded-xl">
