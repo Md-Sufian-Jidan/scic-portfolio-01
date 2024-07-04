@@ -5,7 +5,7 @@ const Projects = () => {
             <h3 className="text-5xl text-center divider">My Work</h3>
             <div className="grid grid-cols-2 gap-5">
                 <div className="overflow-hidden max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 mt-10">
-                    <img className="object-cover w-full h-64" src="/public/p-1.png" alt="Article" />
+                    <img className="object-cover w-full h-64" src="https://i.ibb.co/7Vg00cK/p-1.png" alt="Article" />
                     <div className="p-6">
                         <div>
                             <p className="text-xs font-medium text-blue-600 uppercase dark:text-blue-400">Project Name : Crafts House
@@ -22,7 +22,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="overflow-hidden max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 mt-10">
-                    <img className="object-cover w-full h-64" src="/public/p-2.png" alt="Article" />
+                    <img className="object-cover w-full h-64" src="https://i.ibb.co/GWdr986/p-2.png" alt="Article" />
                     <div className="p-6">
                         <div>
                             <p className="text-xs font-medium text-blue-600 uppercase dark:text-blue-400">Project Name : Product Alter
@@ -40,7 +40,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800 mt-10">
-                <img className="object-cover w-full h-64" src="/public/p-3.png" alt="Article" />
+                <img className="object-cover w-full h-64" src="https://i.ibb.co/QQqjSgY/p-3.png" alt="Article" />
                 <div className="p-6">
                     <div>
                         <p className="text-xs font-medium text-blue-600 uppercase dark:text-blue-400">Project Name : Dreame Home</p>

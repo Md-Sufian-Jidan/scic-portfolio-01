@@ -2,12 +2,12 @@
 const Navbar = () => {
     const navLinks = <>
         <li><a>Home</a></li>
-        <li><a>About</a></li>
-        <li><a>Skills</a></li>
-        <li><a>Projects</a></li>
-        <li><a>Services</a></li>
-        <li><a>Contact</a></li>
+        <li><a onClick={() => window.scrollTo(0,320)}>About</a></li>
+        <li><a onClick={() => window.scrollTo(0,800)}>Skills</a></li>
+        <li><a onClick={() => window.scrollTo(0,1240)}>Projects</a></li>
+        <li><a onClick={() => window.scrollTo(0,2420)}>Contact</a></li>
     </>
+        {/* <li><a>Services</a></li> */}
     return (
         <div className="navbar bg-cyan-900/30 rounded-xl">
             <div className="navbar-start">
