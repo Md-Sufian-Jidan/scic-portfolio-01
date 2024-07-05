@@ -1,7 +1,7 @@
 
 const Navbar = () => {
     const navLinks = <>
-        <li><a>Home</a></li>
+        {/* <li><a>Home</a></li> */}
         <li><a onClick={() => window.scrollTo(0,320)}>About</a></li>
         <li><a onClick={() => window.scrollTo(0,800)}>Skills</a></li>
         <li><a onClick={() => window.scrollTo(0,1240)}>Projects</a></li>

@@ -1,7 +1,37 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+import { VscLoading } from "react-icons/vsc";
 import Typed from "typed.js";
+import jsPDF from "jspdf";
+
 
 const Banner = () => {
+    const [loading, setLoading] = useState(false);
+
+    const download = async () => {
+        const doc = new jsPDF();
+        doc.text(`
+                                      Resume 
+
+    Name      : Md Abu Sufian Jidan      
+    
+    Address   : 2 No Shahid nagor, 
+                Narayangonj,Dhaka.
+
+    City      : Narayangonj                Zip code : 1400
+
+    Districts : Dhaka
+
+    phone     : +88 019 0684 4598
+
+    Email     : jidanjiyaj03@gmail.com 
+
+    Linkdin   : https://www.linkedin.com/in/md-abu-sufian-jidan
+
+    GitHub    : https://github.com/Md-Sufian-Jidan
+                    `, 10, 10);
+        doc.save("a4.pdf");
+    };
+
     const el = useRef(null);
 
     useEffect(() => {
@@ -23,6 +53,7 @@ const Banner = () => {
                     className="max-w-sm rounded-full shadow-2xl" />
                 <div>
                     <h1 className="text-xl font-bold">Hi,My Name is <span className="text-2xl text-[#12afa6]">Md Abu Sufian Jidan.</span> <span className="text-[#12afa6]" ref={el}></span></h1>
+                    <button onClick={() => download()} className="mt-5 btn text-fuchsia-200/50 bg-pink-400/50  hover:bg-gradient-to-b from-green-200 to-rose-300 hover:text-black">{loading ? <VscLoading className="w-full flex justify-center items-center animate-spin" /> : 'Download Resume'}</button>
                 </div>
             </div>
         </div>

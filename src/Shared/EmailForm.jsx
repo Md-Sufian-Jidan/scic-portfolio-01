@@ -20,7 +20,6 @@ const EmailForm = () => {
   const handleSubmit = (e) => {
     setLoading(true);
     e.preventDefault();
-    const from = e.target;
     emailjs.send(
       'service_axycm1b', // Replace with your EmailJS service ID
       'template_qe0hf6r', // Replace with your EmailJS template ID
@@ -31,12 +30,13 @@ const EmailForm = () => {
         console.log('Email successfully sent!', response.status, response.text);
         toast.success('Email sent successfully!');
         setLoading(false);
-        return from.reset();
+        return e.target.reset();
       })
       .catch((error) => {
         toast.error('Something Wrong.Email not sent!');
         console.error('There was an error sending the email!', error);
         setLoading(false);
+        return e.target.reset();
       });
   };
 
@@ -82,7 +82,7 @@ const EmailForm = () => {
       </div>
 
       <button type='submit' className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-black capitalize transition-colors duration-300 transform bg-red-500/70 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
-        {loading ? <AiOutlineLoading3Quarters className='animate-spin w-full flex justify-center items-center' /> : 'Send Email'}
+        {loading ? <AiOutlineLoading3Quarters size={20} className='animate-spin w-full flex justify-center items-center' /> : 'Send Email'}
       </button>
     </form>
   );
