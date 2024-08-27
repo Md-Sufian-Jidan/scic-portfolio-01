@@ -2,10 +2,10 @@
 const Navbar = () => {
     const navLinks = <>
         {/* <li><a>Home</a></li> */}
-        <li><a onClick={() => window.scrollTo(0,320)}>About</a></li>
-        <li><a onClick={() => window.scrollTo(0,800)}>Skills</a></li>
-        <li><a onClick={() => window.scrollTo(0,1240)}>Projects</a></li>
-        <li><a onClick={() => window.scrollTo(0,2420)}>Contact</a></li>
+        <li><a onClick={() => window.scrollTo(0,430)}>About</a></li>
+        <li><a onClick={() => window.scrollTo(0,930)}>Skills</a></li>
+        <li><a onClick={() => window.scrollTo(0,1350)}>Projects</a></li>
+        <li><a onClick={() => window.scrollTo(0,2550)}>Contact</a></li>
     </>
         {/* <li><a>Services</a></li> */}
     return (
@@ -42,7 +42,13 @@ const Navbar = () => {
                     <div title="Md Abu Sufian Jidan" className="w-10 rounded-full">
                         <img
                             alt="Developer image"
-                            src="https://media.licdn.com/dms/image/D4D03AQHhAa08TqOKfg/profile-displayphoto-shrink_200_200/0/1719225918279?e=1725494400&v=beta&t=5o0wq4R5G1oSjFoJ2y6u8uFsPqkrE1pf7CD2FGe2W04" />
+                            src="https://i.imgur.com/lYNKPed.jpeg" />
+                        {/* <img
+                            alt="Developer image"
+                            src="https://i.ibb.co/JtHQnk9/Black-and-Gold-Simple-Business-Man-Linked-In-Profile-Picture.png" /> */}
+                        {/* <img
+                            alt="Developer image"
+                            src="https://media.licdn.com/dms/image/D4D03AQHhAa08TqOKfg/profile-displayphoto-shrink_200_200/0/1719225918279?e=1725494400&v=beta&t=5o0wq4R5G1oSjFoJ2y6u8uFsPqkrE1pf7CD2FGe2W04" /> */}
                     </div>
                 </div>
             </div>

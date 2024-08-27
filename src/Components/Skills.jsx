@@ -2,7 +2,7 @@
 const Skills = () => {
     return (
         <div className="my-5">
-            <h2 className="text-center text-4xl divider">Skills That i know</h2>
+            <h2 className="text-center md:text-4xl text-2xl divider">Skills That i know</h2>
             {/* <hr className="border-4 bg-[#9c97fa] h-1" /> */}
             <div className="p-5 grid grid-cols-4 gap-5">
                 <img className="w-24" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML" />

@@ -2,8 +2,8 @@
 const Projects = () => {
     return (
         <div className="my-10">
-            <h3 className="text-5xl text-center divider">My Work</h3>
-            <div className="grid grid-cols-2 gap-5">
+            <h3 className="md:text-5xl text-2xl text-center divider">My Work</h3>
+            <div className="grid lg:grid-cols-2 gap-5">
                 <div className="overflow-hidden max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 mt-10">
                     <img className="object-cover w-full h-64" src="https://i.ibb.co/7Vg00cK/p-1.png" alt="Article" />
                     <div className="p-6">
